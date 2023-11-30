@@ -1,0 +1,12 @@
+---
+- hosts: all
+  gather_facts: yes
+  become: yes
+
+  # vars_files:
+  #   - vars.yaml
+
+- hosts: target_host
+  become: yes
+  roles:
+    - docker
