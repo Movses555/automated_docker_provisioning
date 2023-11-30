@@ -1,4 +1,4 @@
-# Automated Docker Provisioning Script
+# Automated Docker Provisioning
 
 ## Overview
 This script automates the provisioning of Docker on any system using Ansible. It simplifies the setup process, ensuring a consistent and reliable Docker environment across different machines.
